@@ -1,0 +1,36 @@
+# https://github.com/ReFlar/twofactor/blob/master/locale/en.yml
+
+reflar-twofactor:
+  forum:
+    text: "Your {forum} verification code is: {code}"
+    accountlabel: 雙囙素認証
+    incorrect_2fa: 冇効嘅認証碼
+    2fa_disabled: 雙囙素認証已停用
+    2fa_enabled: 雙囙素認証已啓用
+    modal:
+      twofactor_title: 雙囙素認証設寘
+      heading: 雙囙素認証設寘
+      switch: 雙囙素認証
+      2fa_heading: 雙囙素認証編碼
+      helpQR: 掃描 QR 圖碼，一繫手動添加編碼至 Google Authenticator 或其佢 TOTP 應用程序。
+      helpPhone: '選擇妳嘅運營商，填入電話號碼並點擊「保存電話號碼」'
+      submitPhone: 保存電話號碼
+      placeholder: 動態密碼
+      button: 送齣
+      2fa_help: 輸入嚟自短信或 TOTP 應用程序嘅動態密碼
+      close: 我已保存我嘅條碼
+      recov: 恢複條碼
+      login_title: 雙囙素認証
+      recov_help1: 請保存呢些編碼，牠哋將唔曉再顯示！
+      recov_help2: 呢繫喺冇 TOTP 應用程序訪問權限時訪問帳戶嘅唯一方式。
+      stPhone: 切換至電話設寘
+      stTOTP: 切換至 TOTP 設寘
+      back: 返囘
+  admin:
+      settings:
+        title: 雙囙素認証
+        help: 從 twilio.com/console 取得妳嘅帳戶 SID 咊 Auth Token，一繫從 twilio.com/console/phone-numbers/incoming 取得妳嘅電話號碼 
+        enable: 啓用 Twillio
+        sid: Twillio 帳戶 SID
+        token: Twillio Auth Token
+        number: Twillio 電話號碼

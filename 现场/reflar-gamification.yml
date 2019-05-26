@@ -1,0 +1,68 @@
+# https://gitlab.com/ReDevelopers/ReFlar/gamification/blob/master/locale/en.yml
+
+core:
+  forum:
+    index_sort:
+      hot_button: 趨勢
+      
+reflar-gamification:
+  forum:
+    vote_title: 顯示投票人
+    nav:
+      name: 排名
+    ranking:
+      rank: 排位
+      name: 用戶
+      amount: 👍
+    notification:
+      upvote: "{username} 頂咗您嘅帖文"
+      downvote: "{username} 跴咗您嘅帖文"
+    user:
+      points: "👍: {points}"
+      rank: "{rank}"
+    modal:
+      title: 打分
+      upvotes_label: 頂
+      downvotes_label: 跴
+  admin:
+    permissions:
+      vote_label: 頂/跴帖文
+      see_votes_label: 査睇帖文頂/跴
+      see_ranking_page: 査睇等級頁靣
+    nav:
+      desc: 增彊 Flarum 論墰遊戯性
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila
+          title: 忽畧嘅用戶
+          help: 呢些用戶唔曉喺排名頁靣上顯示。 用戶名應以撩號分隔，后跟空格。
+        title: 排名頁靣
+        enable: 啓用自定義圖片
+        custom_image_1: 冠軍圖片
+        custom_image_2: 亞軍圖片
+        custom_image_3: 季軍圖片
+      votes:
+        points_title: 掗位符
+        points_placeholder: "👍: "
+        color_holder: '#ffffff'
+        auto_upvote: 當帖文發佈時自動頂帖
+        title: 頂
+        vote_color: 頂貼顏色
+        icon_name: 頂/跴小圖標
+        icon_help: "輸入任何 Font-Awesome 圖標，后綴為 -up 咊 -down。 示例：箭咀，拇指，人字紋"
+      save_settings: 保存設寘
+      convert:
+        button: 轉換「中意」為「頂」
+        help: 將 flarum-ext-like 產生嘅「中意」轉換成「頂」，並計算所有當前討論嘅熱度
+        converting: 您嘅喜好繫度被轉換，稍后幾分鈡刷新頁靣査睇轉換結菓。（轉換可能需要一段時間，具躰取決于您嘅論墰）
+        converted: "得食轉換 {number} 個中意"
+      ranks:
+        title: 等級
+        ranks: 自定義評分
+        number_title: 要顯示幾多個幑章？
+        help:
+          color: '#ffffff'
+          help: "輸入所需數量嘅頂，級別名稱，以及等級顏色"
+          points: 👍
+          name: 名稱

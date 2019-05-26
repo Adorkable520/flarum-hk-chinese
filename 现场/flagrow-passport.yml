@@ -1,0 +1,14 @@
+# https://github.com/flagrow/passport/blob/master/locale/en.yml
+
+flagrow-passport:
+    admin:
+        popup:
+            title: Flagrow 護炤
+            field:
+                app-auth-url: OAuth 授權鏈接
+                app-token-url: OAuth token 鏈接
+                app-user-url: 喺騐証得食后 Api URL 將提供用戶聲氣
+                app-id: OAuth application id
+                app-secret: OAuth application secret
+                app-scopes: OAuth scopes to request
+                button-title: 登錄按鈕標簽

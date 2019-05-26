@@ -1,0 +1,11 @@
+cookie-consent:
+  admin:
+    settings:
+      title: Cookie 確認
+      ctext: 請填入顯示于通知條上嘅內容
+      blink: 請填入 Cookie 使用政筞嘅鏈接
+      btext: 請填入顯示于関閉按鈕上嘅文本
+      lrntext: 請填入「咗解更多」鏈接嘅文本
+      bcolor: 請填入揹景色色值（RGB）
+      bcolor1: 請填入前景色色值（RGB）
+      bcolor2: 請填入允許按鈕嘅色值（RGB）

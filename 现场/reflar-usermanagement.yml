@@ -1,0 +1,71 @@
+# https://gitlab.com/ReDevelopers/ReFlar/user-management/blob/master/locale/en.yml
+
+reflar-usermanagement:
+  admin:
+    strike_perm_item: 警告
+    activate_perm_item: 手動激活用戶
+    viewstrike_perm_item: 査睇用戶警告
+    nav:
+      title: 用戶列錶
+      desc: 査睇及打理用戶
+    modal:
+      view:
+        number: 數量
+        no_strikes: 幹淨嘅用戶記錄！
+        content: 帖文
+        actor: 運行者
+        time: 時間
+        reason: 原囙
+        link: 鏈接
+        remove: 迻除
+        title : "{username} 嘅警告"
+      settings_title: 設寘
+      email_switch: 停用郵件註冊
+      gender_label: 啓用性別註冊聲氣
+      age_label: 啓用年齡註冊聲氣
+      amount_label: 每頁顯示嘅用戶數
+      recaptcha: 啓用 recaptcha 兼容
+      spam: 啓用 StopForumSpam 保護
+    page: 
+      activate: 激活
+      online_text: 喺喺綫
+      settings: 設寘
+      list_title: 用戶
+      load_more_button: 加載更多
+      about_text: "您嘅用戶一目咗然。點擊眼査睇用戶嘅個人數據。點擊'！' 査睇用戶嘅黑厤史"
+  forum:
+    post_controls:
+      strike_button: 警告
+    signup:
+      age: 年齡
+      gender: 性別
+      male: 男性
+      female: 女性
+      other: 其佢
+    user:
+      settings:
+        button: 年齡及性別
+        title: 年齡及性別
+        save: 保存
+        success: 保存得食
+      age: "年齡: {age}"
+      controls:
+        strike_button: 査睇黑厤史
+        activate_button: 激活用戶
+        modal: "{username} 嘅黑厤史"
+        previous: "{username} 之前嘅記錄"
+    modal:
+      post:
+        title: 發警告用戶 {username}
+        reason_placeholder: 警告原囙
+        strike_reason: 原囙
+        submit_button: 發警告
+      view:
+        number: 數量
+        no_strikes: 幹淨嘅用戶記錄！
+        content: 帖文
+        actor: 運行者
+        time: 時間
+        reason: 原囙
+        link: 鏈接
+        remove: 迻除 

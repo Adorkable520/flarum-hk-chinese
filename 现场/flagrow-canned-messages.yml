@@ -1,0 +1,29 @@
+flagrow-canned-messages:
+    admin:
+        buttons:
+            add-message: 添加聲氣
+            save-message: 保存聲氣
+            delete-message: 刪除聲氣
+            configure-messages: 點此設寘聲氣
+            configure-advanced: 高耑設寘
+        menu:
+            title: 鑵頭聲氣
+            description: >
+                自訂 bbcode 鑵頭聲氣
+        strings:
+            key: BBcode
+            locale: 語言
+            style: 樣式
+            content: 內容
+        locales:
+            all: 全餐
+        settings:
+            title: 鑵頭聲氣設寘
+            bbtag: 自訂 BBcode 標簽
+            bbtag-help: >
+                喺此可以更高用于鑵頭聲氣嘅 bbcode。更改此設寘將導緻已存喺嘅鑵頭聲氣冇灋顯示。
+                您僅可以使用大寫英文本母「A-Z」及短劃綫「-」咊「_」。
+                咪製忘記喺更改設寘后清空緩存。
+    forum:
+        bbcode:
+            invalid-key: 呢度有一條聲氣，但繫內容經已被刪除一繫喺當前語言環境下唔得用

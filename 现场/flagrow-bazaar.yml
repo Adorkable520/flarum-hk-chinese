@@ -1,0 +1,111 @@
+# https://github.com/flagrow/bazaar/blob/master/resources/locale/en.yml
+
+flagrow-bazaar:
+    admin:
+        loader:
+            is_loading: 系度處理...
+            error: 發生錯誤。有關詳細信息，請查閱歷史記錄選項卡和 Flarum 日志。唔好害驚向我哋反饋。
+            refresh: 刷新頁面
+            report_issue: 回報問題
+        nav:
+            title: 市場
+            description: 延伸套件市場
+        header:
+            extensions: 瀏覽延伸套件
+            tasks: 任務歷史紀錄
+        modal:
+            dashboard:
+                title: 儀表板
+                visit-remote-dashboard: 造訪儀表板
+                sync:
+                    switch: 同步
+                    description: >
+                        將你嘅延伸套件信息與 {host} 同步，以便及時收到有關你安裝嘅新版本延伸套件嘅通知。另外，我哋會向你發送關於所有啟用同步市場嘅過期延伸套件嘅常規通知。
+            settings:
+                title: Flagrow 市場
+                field:
+                    token:
+                        label: API token
+                        description: API token 系訪問 Flagrow 延伸套件 API 所必需嘅。如果已經設置好了，呢個系好嘅開始！
+                    use_cron_for_tasks:
+                        label: 定時任務
+                        description: >
+                           透過允許定時任務處理市場任務，呢些處理過程唔太可能超時。請注意，你需要有配置定時任務嘅能力，請參閱 <a>wiki</a>。
+                        toggle: 使用定時任務進行任務處理
+            connect-bazaar:
+                title: 連接
+                description: >
+                    將你嘅 Flarum 論壇連接到 {host} 上嘅個人帳戶以解鎖高級功能; 包括一個儀表板，可以為你提供所有連接嘅 Flarum 嘅運行狀況概覽。當你嘅論壇包含過時嘅擴展或集中更新所有 Flarum 時，我哋將添加更多功能，例如通知。
+            requirements:
+                file-permissions:
+                    title: 文件属性
+                    description: >
+                        睇起嚟市場冇足夠嘅權限嚟編寫文件和/或目錄，請查睇下面嘅列表。更多相關信息，請參閱 <a>wiki</a>。
+                php-memory_limit:
+                    title: 內存限制
+                    description: >
+                        我哋建議允許 PHP 至少使用 {required} 內存，你嘅 php.ini 目前允許 {limit}。盡管我哋嘗試喺運行時增加內存限制，但攞決於你嘅托管環境。更多相關信息，請參閱 <a>wiki</a>。
+        page:
+            state:
+                no_results_available: >
+                    目前没有可用项目。
+                not_authorized: >
+                    flagrow.io api 授權失敗。可能系唔穩定嘅網絡連接造成嘅。連接穩定後，請刷新頁面，如果問題仍然存在，請與我哋聯系。
+            button:
+                more: 更多
+                install: 安裝
+                uninstall: 移除
+                enable: 啟用
+                disable: 停用
+                update: 更新
+                connect: 連接
+                favorite_button: "喜愛嘅延伸套件"
+                remove_favorite_button: "移出喜愛嘅延伸套件"
+                subscribe: 購買訂閱
+                unsubscribe: 攞消訂閱
+                connect_to_subscribe: 連接市場以訂閱延伸套件
+            extension:
+                installed: 延伸套件已安裝
+                enabled: 延伸套件已啟用
+                vendor: By {vendor}
+                favorited: 你嘅最愛
+                pending: 延伸套件等待後台任務完成
+                outdated: "延伸套件已過時，請更新至版本 {new}"
+                premium: Premium
+                subscribed: 已訂閱
+                subscribe_check_failed: 睇起嚟你攞消了結帳。
+            task:
+                header:
+                    status: 狀態
+                    command: 指令
+                    output: 輸出
+                    time: 時間
+                    details: 詳情
+                attribute:
+                    created_at: 創建於
+                    started_at: 開始於
+                    finished_at: 完成於
+                status:
+                    success: 掂
+                    exception: 發生異常
+                    working: 工作系度進行中
+                    unknown: 未知
+                command:
+                    sync-lock: 同步 composer.lock 文件
+                    sync-version: 同步 {extension} 版本
+                    install: 安裝 {extension}
+                    update: 更新 {extension}
+                    uninstall: 移除 {extension}
+                group:
+                    today: 今日
+                    lastmonth: 上月
+                    older: 更早
+        search:
+            placeholder: 搜索延伸套件
+            filter_installed: 已安裝
+            filter_update_required: 有更新
+            filter_favorited: 喜愛嘅
+            filter_subscribed: 已訂閱
+            filter_premium: Premium
+            filter_pending: 待定
+            filter_languages: 語言

@@ -1,0 +1,18 @@
+# https://github.com/flagrow/telegram/blob/master/resources/locale/en.yml
+#
+flagrow-telegram:
+  admin:
+    settings:
+      title: Telegram 設寘
+
+      field:
+        botUsername: Bot Username
+        botToken: Bot Token
+        enableNotifications: 啓用通知
+
+  forum:
+    log_in_with_telegram_button: 透過 Telegram 帳號登錄
+
+    settings:
+      notify_by_telegram_heading: Telegram
+      unblock_telegram_bot: 睇嚟妳冇透過認証一繫阻攔咗 Telegram bot，請使用 Telegram 發送聲氣俾 <a>{username}</a> 以重新啓用通知

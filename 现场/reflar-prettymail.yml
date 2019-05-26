@@ -1,0 +1,8 @@
+reflar-prettymail:
+  admin:
+    modal:
+      title: Pretty Mail 設寘
+      label: 郵件糢闆
+      reset: 複原為默認
+      confirm: 確定要複原為默認糢闆哶？
+      help: '妳可以使用呢幾個變量： $body 錶示郵件正文，$baseUrl 錶示論墰 URL，$settings 允許妳與 SettingsRepositoryInterface 進行交互，$link 包含郵件中嘅鏈接。査睇默認糢闆咗解點使用變量。'

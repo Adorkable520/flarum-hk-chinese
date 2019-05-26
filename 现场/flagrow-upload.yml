@@ -1,0 +1,87 @@
+# https://github.com/flagrow/upload/blob/master/locale/en.yml
+
+flagrow-upload:
+    forum:
+        buttons:
+            attach: 上傳
+        states:
+            loading: 加載中
+            success: 得食
+            error: 錯誤
+    admin:
+        templates:
+          image: 默認圖片下載糢闆
+          image_description: >
+              顯示圖片縮畧圖並經由 php 代理下載，支持統計及熱鏈保護
+          file: 默認文件下載糢闆
+          file_description: >
+              顯示文件名稱及基本聲氣，經由 php 代理下載，支持統計及熱鏈保護
+          image-preview: 完整圖片預覽糢闆
+          image-preview_description: >
+              于行內顯示完整圖片。唔支持下載、統計及熱鏈保護
+        permissions:
+            upload_label: 上傳文件
+            download_label: 下載文件
+        upload_methods:
+            local: 本地
+            aws-s3: 亞馬遜 S3
+            imgur: Imgur
+            ovh-svfs: OVH SVFS
+        labels:
+            preferences:
+                title: 偏好設寘
+                max_file_size: 最大文件大小 (單位 KB)
+                mime_types: 設寘 MIME 類型以及上傳接口
+            resize:
+                title: 圖片縮放
+                toggle: 縮放圖片
+                max_width: 最大圖片寬度
+                max_height: 最大圖片高度
+            watermark:
+                title: 圖片水印
+                toggle: 圖片水印
+                position: 水印位寘
+                file: 上傳水印圖片
+            local:
+                title: 本地存儲設寘
+                cdn_url: CDN 鏈接 (喺文件前)
+            imgur:
+                title: Imgur 圖片存儲設寘
+                client_id: Imgur 用戶耑 ID
+            aws-s3:
+                title: AWS S3 存儲設寘
+                key: Key
+                secret: Secret
+                bucket: Bucket
+                region: 區域
+            ovh-svfs:
+                title: OVH SVFS 存儲設寘
+                container: 容器
+                tenantid: Tenant ID
+                username: 用戶名
+                password: 密碼
+                region: 區域
+            disable-hotlink-protection:
+                title: 停用熱鏈保護
+                toggle: 停用
+            disable-download-logging:
+                title: 停用下載日誌
+                toggle: 停用
+        buttons:
+            save: 保存更改
+        help_texts:
+            description: >
+                配寘上傳服務及偏好設寘
+            mime_types: >
+                請于此設寘暎射。每一個 MIME 類型嘅正則錶達式都將由指定嘅上傳接口処理
+            download_templates: >
+                下載糢闆繫上傳嘅文件點喺論墰上顯示
+                比如預覽、按鈕等，目前支持嘅有：
+            resize: >
+                您可以選擇繫咪喺上傳圖片前調整圖片大小，您也可以設寘圖片最大長寬（px），圖片大謌仔整將會保持圖片長寬比例
+            watermark: >
+                喺圖片上傳時添摳水印，僅支持非 gif 圖片
+            disable-hotlink-protection: >
+                熱鏈保護可防止從其佢站點下載。目前嘅方式需求 csrf token 及帖文 ID
+            disable-download-logging: >
+                開啓此設寘可査朢下載量及未嚟可能嘅統計數據。

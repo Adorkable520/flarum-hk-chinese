@@ -1,0 +1,22 @@
+flagrow-user-directory:
+    forum:
+        search:
+            users_heading: '喺全餐會員中蒐索「{query}」'
+        page:
+            nav: 會員目錄
+            sort:
+                relevance: 相関度
+                default: 默認
+                username_az: 會員名 (a-z)
+                username_za: 會員名 (z-a)
+                newest: 最新
+                oldest: 最早
+                seen_recent: 最新上綫
+                seen_oldest: 長期未登陸
+                most_posts: 至多囘複
+                least_posts: 最少囘複
+                most_discussions: 至多貼文
+                least_discussions: 最少貼文
+    admin:
+        permissions:
+            view_user_directory: 査睇會員目錄

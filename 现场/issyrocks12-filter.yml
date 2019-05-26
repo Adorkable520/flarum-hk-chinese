@@ -1,0 +1,31 @@
+# https://github.com/issyrocks12/flarum-ext-filter/blob/master/locale/en.yml
+
+issyrocks12-filter:
+    forum:
+        flagger_name: 自動審査
+        flaged_text: 包含已封鎖嘅字符串
+    admin:
+        title: 隔阻器
+        help: 輸入字符串，以半角撩號或空格分割。
+        email_help: 被舉報嘅郵件正文，接受 HTML 或純文本。
+        filter_label: 要隔阻嘅字符串
+        input:
+            placeholder: 要隔阻嘅字符串
+            filter_title: 要隔阻嘅字符串
+            email_label: 郵箱設寘
+            switch:
+              email: 當貼文被隔阻時發信
+              merge: 自動閤並重複貼文
+            email_subject: 主題
+            email_body: 正文
+        nav:
+            text: 隔阻器
+            desc: 依炤関鍵字隔阻貼文
+        email:
+            default_subject: 您最新發佈嘅貼文已被迻除
+            default_text: |
+                十足抱歉，事関您嘅貼文中包含我哋唔希朢展示嘅內容，囙此您嘅貼文被迻除。
+
+                如菓您估話呢繫一個錯誤，請衕我哋聯繫，我哋嘅打理員將會進行人工審覈，如菓審覈透過，您嘅貼文將被複原。
+
+                感謝您嘅理解。

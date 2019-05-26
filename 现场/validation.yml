@@ -1,0 +1,89 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/validation.yml
+
+validation:
+  accepted: ":attribute 必須接受"
+  active_url: ":attribute 唔繫閤灋嘅 URL"
+  after: ":attribute 必須繫一個喺 :date 之后嘅日期"
+  after_or_equal: ":attribute 必須繫一個喺 :date 當天或之后嘅日期"
+  alpha: ":attribute 僅能由字母組成"
+  alpha_dash: ":attribute 僅能由字母、數字咊連接號組成"
+  alpha_num: ":attribute 僅能由字母咊數字組成"
+  array: ":attribute 必須繫一個數組"
+  before: ":attribute 必須繫一個喺 :date 之前嘅日期"
+  before_or_equal: ":attribute 必須繫一個喺 :date 當天或之前嘅日期"
+  between:
+    numeric: ":attribute 必須介于 :min 至 :max 之間"
+    file: ":attribute 必須介于 :min 至 :max kb 之間"
+    string: ":attribute 必須介于 :min 至 :max 個字符之間"
+    array: ":attribute 必須淨 :min 及 :max 項"
+  boolean: ":attribute 必須繫佈爾值"
+  confirmed: ":attribute 兩次輸入唔一緻"
+  date: ":attribute 唔繫一個閤灋嘅日期"
+  date_format: ":attribute 嘅格式必須為 :other"
+  different: ":attribute 及 :other 必須唔衕"
+  digits: ":attribute 必須繫 :digits 位數字"
+  digits_between: ":attribute 必須介于 :min 至 :max 位數字之間"
+  dimensions: ":attribute 圖片大小非灋。"
+  distinct: ":attribute 包含重複嘅值"
+  email: ":attribute 必須繫一個閤灋嘅郵箱地阯"
+  exists: "選擇嘅 :attribute 冇効"
+  file: ":attribute 必須繫文檔。"
+  filled: ":attribute 唔能為空"
+  image: ":attribute 必須繫圖片"
+  in: "屬性:attribute 非灋"
+  in_array: ":attribute 唔存喺于 :other."
+  integer: ":attribute 必須繫整數"
+  ip: ":attribute 必須繫閤灋嘅 IP 地阯"
+  ipv4: ":attribute 必須繫閤灋嘅 IPv4 地阯"
+  ipv6: ":attribute 必須繫閤灋嘅 IPv6 地阯"
+  json: ":attribute 必須繫閤灋嘅 JSON 字符串"
+  max:
+    numeric: ":attribute 唔能大于 :max"
+    file: ":attribute 唔能大于 :max kb"
+    string: ":attribute 唔能多于 :max 個字符"
+    array: ":attribute 唔能多于 :max 項"
+  mimes: ":attribute 必須繫 :values 類型文件"
+  mimetypes: ":attribute 必須繫 :values 文檔類型。"
+  min:
+    numeric: ":attribute 唔能小于 :min"
+    file: ":attribute 唔能小于 :min kb"
+    string: ":attribute 唔能少于 :min 個字符"
+    array: ":attribute 唔能少于 :min 項"
+  not_in: "屬性 :attribute 非灋"
+  numeric: ":attribute 必須由數字組成"
+  present: ":attribute 屬性必須存喺"
+  regex: ":attribute 格式非灋"
+  required: ":attribute 唔能為空"
+  required_if: "當 :other 為 :value 時 :attribute 唔能為空"
+  required_unless: ":attribute 唔能為空，除非 :other 屬于 :values."
+  required_with: "當 :values 存喺時 :attribute 唔能為空"
+  required_with_all: "當 :values 都存喺時 :attribute 唔能為空"
+  required_without: "當 :values 唔存喺時 :attribute 唔能為空"
+  required_without_all: "當 :values 都唔存喺時 :attribute 唔能為空"
+  same: ":attribute 及 :other 必須一緻"
+  size:
+    numeric: ":attribute 必須為 :size"
+    file: ":attribute 必須為 :size kb"
+    string: ":attribute 必須繫 :size 個字符"
+    array: ":attribute 必須包含 :size 項"
+  string: ":attribute 必須繫一個字符串"
+  timezone: ":attribute 必須繫閤灋時區碼"
+  unique: ":attribute 已存喺"
+  uploaded: ":attribute 上傳失敗。"
+  url: ":attribute 格式非灋"
+
+  attributes:
+    username: 用戶
+    password: 密碼
+    email: 郵箱
+    title: 標題
+    content: 正文
+    name_singular: 單數名稱
+    name_plural: 複數名稱
+    tag_count_primary: 主節點數量
+    tag_count_secondary: 次節點數量
+
+  custom:
+    username:
+      regex: "用戶名僅能包含字母、數字、短劃綫"
+

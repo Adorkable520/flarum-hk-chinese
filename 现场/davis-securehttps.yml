@@ -1,0 +1,10 @@
+# https://github.com/dav-is/flarum-ext-securehttps/blob/master/locale/en.yml
+
+davis-securehttps:
+  admin:
+    settings:
+      title: 設置
+      replace: 通過 HTTPS 代理顯示圖片
+  forum:
+    removed: "因該圖片嚟自未加密網絡，出於安全考慮唔予顯示。"
+    show: 我要睇圖

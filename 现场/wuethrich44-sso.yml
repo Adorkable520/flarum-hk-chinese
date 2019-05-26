@@ -1,0 +1,9 @@
+# https://github.com/wuethrich44/flarum-ext-sso/blob/master/locale/en.yml
+
+wuethrich44-sso:
+  admin:
+    settings:
+      title: "單點登錄設寘"
+      signup_url: "註冊鏈接"
+      login_url: "登錄鏈接"
+      logout_url: "註銷鏈接"

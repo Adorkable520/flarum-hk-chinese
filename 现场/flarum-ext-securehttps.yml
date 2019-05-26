@@ -1,0 +1,8 @@
+davis-securehttps:
+  admin:
+    settings:
+      title: 設寘
+      replace: 透過 HTTPS 代理顯示圖片
+  forum:
+    removed: "囙該圖片嚟自未加密網絡，齣于安全攷慮唔予顯示。"
+    show: 我要睇圖

@@ -1,0 +1,36 @@
+# https://github.com/flagrow/flarum-ext-image-upload/blob/master/locale/en.yml
+
+flagrow-image-upload:
+    forum:
+        buttons:
+            attach: 上傳
+        states:
+            loading: 傳輸中
+            success: 上傳掂
+            error: 上傳失敗
+    admin:
+        upload_methods:
+            local: 本地
+            imgur: Imgur
+        labels:
+            upload_method: 上传方式
+            resize:
+                title: 图像大小
+                toggle: 调整图像大小
+                max_width: 最大宽度
+                max_height: 最大高度
+            imgur:
+                title: Imgur 设置
+                client_id: Client-ID
+        buttons:
+            save: 存储设置
+        help_texts:
+            description: >
+                設置圖片上傳服務及偏好
+            upload_method: >
+                喺此處你可以選擇上傳圖片嘅方式
+                當你選擇後相應嘅設置將會顯示出嚟
+            resize: >
+                系否要喺上傳前就調整圖片大小
+                你可以設置最大寬度與最大高度，以 px 為單位
+                調整大小唔會變更圖片長寬比例

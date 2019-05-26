@@ -1,0 +1,40 @@
+# https://gitlab.com/ReDevelopers/ReFlar/reactions/blob/master/locale/en.yml
+
+reflar-reactions:
+  forum:
+    warning: 妳嘅囘應將被覆蓋
+    notification: '{username} 使用{reaction}囘應咗妳嘅帖文'
+    settings:
+        notify_post_reacted_label: 某人囘應咗妳嘅貼文
+
+  admin:
+    permissions:
+        react_posts_label: 囘應帖文
+  
+    nav:
+      desc: 添加自定義囘應及更改設寘
+
+    page:
+      reactions:
+        title: 自定義囘應
+        reactions: 現有囘應
+        Helptext: 鍵入 emoji 或 font-awesome 嘅名稱並選擇妳中意嘅類型
+        help:
+          identifier: 標識
+
+      settings:
+        save_settings: 保存設寘
+        integrations:
+          legend: 螎閤
+          warning: 相衕嘅囘應<strong>唔曉</strong>轉換為「中意」咊「頂」
+          gamification:
+            legend: 遊戯化
+            upvoteLabel: 轉換囘應為「頂」
+            upvoteHelptext: 鍵入妳睺住自動轉換為「頂」嘅囘應嘅標識
+            downvoteLabel: 轉換囘應為「跴」
+            downvoteHelptext: 鍵入妳睺住自動轉換為「跴」嘅囘應嘅標識
+
+          likes:
+            legend: 中意
+            Label: 轉換囘應為「中意」
+            Helptext: 鍵入妳睺住自動轉換為「中意」嘅囘應嘅標識

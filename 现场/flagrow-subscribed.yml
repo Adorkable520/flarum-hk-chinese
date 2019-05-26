@@ -1,0 +1,16 @@
+flagrow-subscribed:
+    forum:
+        settings:
+            defaults_label: 將「{setting}」設為默認啓用
+            forced_label: 彊製為所有人啓用「{setting}」
+            notify_discussion_created_label: 有人添加貼文時
+            notify_user_created_label: 有人註冊時
+        notifications:
+            discussion_created_text: "{username} 添加貼文"
+            user_created_text: "新會員 {username}"
+    admin:
+        menu:
+            description: 配寘（默認）會員訂閱
+        permission:
+            subscribe_to_discussion_created: 允許接收添加貼文嘅通知
+            subscribe_to_user_created: 允許接收新會員註冊嘅通知

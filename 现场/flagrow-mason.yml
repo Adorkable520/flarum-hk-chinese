@@ -1,0 +1,99 @@
+# https://github.com/flagrow/mason/blob/master/resources/locale/en.yml
+#
+flagrow-mason:
+    forum:
+        discussion-controls:
+            edit-answers: 編輯字段
+        answers-modal:
+            edit-title: 編輯 {title} 嘅字段
+            save: 保存字段
+        post-answers:
+            no-answer: 冇答案
+        answers:
+            choose-option: 選擇一個選項
+            no-option-selected: 未選擇
+        tags:
+            inadequate-settings: >
+                節點設寘未正確配寘。至多允許一個主節點咊次節點，一繫停用此特性。
+            tags-label: 節點
+    admin:
+        buttons:
+            new-field: 添加字段
+            add-field: 添加字段
+            save-field: 保存字段
+            delete-field: 刪除字段
+            edit-field: 點擊編輯字段
+            add-answer: 添加答案
+            save-answer: 保存答案
+            delete-answer: 刪除答案
+            show-user-answers: 顯示 ({count}) 條唔建議嘅答案
+        menu:
+            description: >
+                配寘自定義帖文字段
+        fields:
+            add: 添加字段 {field}
+            edit: 編輯字段 {field}
+            required: 必填項
+            name: 字段名稱
+            name-help: >
+                公開可見且唔得飜譯嘅字段標簽
+            description: 字段講明
+            description-help: >
+                可選講明以解釋呢個字段嘅用途
+            min_answers_count: 最小答案數
+            max_answers_count: 最大答案數
+            show_when_empty: 顯示空字段
+            show_when_empty-help:
+                唔拘字段繫咪為空均喺帖文中顯示
+            validation: 校騐用戶輸入
+            user_values_allowed: 允許用戶輸入嘅內容
+            user_values_allowed-help: >
+                如菓啓用，用戶可以添加自己嘅值而唔繫打理員定義嘅值。
+                呢些值將根據「校騐」設寘進行檢査。
+                如菓禁用，佢哋衹能使用「建議」嘅答案。
+            validation-help: >
+                査睇支持嘅 <a>Laravel validation rules</a>，例如:
+                "string|min:5" 或 "url".
+            enable-user-values-for-validation: 啓用「用戶輸入」嚟配寘校騐規則
+            icon: 小圖標
+            icon-help: >
+                喺呢個字段前顯示小圖標。可用嘅小圖標請査睇 <a>FontAwesome 網站</a>，冇需「fa-」前綴
+            icon-preview: 預覽： {preview}
+            save-field-for-answers: 保存此字段以添加答案
+            is_suggested: 嚮用戶展示建議
+            new-answer-placeholder: 一些文本
+        messages:
+            delete-answer-confirmation: >
+                妳確定要刪除答案「{content}」？
+                呢將從所有使用牠嘅帖文中迻除，如菓妳睺住保畱現有答案請停用答案建議。
+                刪除答案？
+            delete-field-confirmation: >
+                妳確定要刪除字段「{name}」？
+                呢將從所有使用牠嘅帖文中迻除
+                刪除字段？
+        settings:
+            fields-section-title: 自定義字段標題
+            fields-section-title-placeholder: 默認唔顯示標題
+            fields-section-title-help: >
+                用戶將喺字段上見倒呢個文本
+            column-count: 顯示字段數目
+            n-columns: "{count} 個直欄"
+            labels-as-placeholders: 喺錶單中顯示標簽作為掗位
+            labels-as-placeholders-help: >
+                字段將使用較少嘅縱嚮空間，小圖標將唔再顯示。請覺眼，呢可能會影響可用性，尤其繫喺編輯現有字段時。
+            fields-in-hero: 字段作為帖文橫幅展示，而唔繫首帖
+            hide-empty-fields-section: 當所有字段都為空且唔得見時，隱藏標題及控製項
+            hide-empty-fields-section-help: >
+                默估話始終顯示，啓用此選項后，當所有字段都為空時，「編輯字段」按鈕僅喺「囘複」下拉列錶中可用
+            tags-as-field: 將節點擊擇作為一個字段顯示
+            tags-as-field-help: >
+                呢將隱藏默認節點擊擇並以自定義下拉列錶代鄧。呢僅適用于至多一個主節點咊一個次節點！
+            tags-field-name: 節點字段標簽
+            tags-field-name-placeholder: => flagrow-mason.forum.tags.tags-label
+        titles:
+            settings: 設寘
+            fields: 字段
+        permissions:
+            update-own-fields: 更新自己帖文嘅 Mason 字段
+            update-other-fields: 更新任意帖文嘅 Mason 字段
+            skip-required-fields: 跳過必填嘅 Mason 字段

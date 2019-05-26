@@ -1,0 +1,28 @@
+flagrow-fonts:
+    admin:
+        nav:
+            title: 字躰
+            description: 打理用于論墰嘅字躰
+        browse:
+            label:
+                sort: 排序
+                search: 蒐索
+            sort:
+                alpha: 字母序
+                date: 近嚟添加
+                popularity: 熱度
+                trending: 趨勢
+                enabled: 已啓用
+            loader:
+                more: 加載更多
+                loading: 繫度加載...
+            select:
+                enable: 啓用
+                update: 更新
+            sample-text: The quick brown fox jumps over the lazy dog.
+        modal:
+            settings:
+                title: Flagrow 字躰設寘
+                field:
+                    googleApiKey: Google API Key
+                    googleApiKeyDescription: 您必須創建一個 Google Fonts API Key 並填入呢度。最快嘅方式繫訪問<a>呢度</a>並點擊「Get a key」

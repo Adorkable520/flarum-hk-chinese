@@ -1,0 +1,31 @@
+flarum-notify:
+  admin:
+    title: 通知
+    description: 打理 Slack、Hipchat 及 Gitter 嘅通知
+    services:
+      title: 通知服務
+      description: 請選取要啓用嘅服務
+    events:
+      title: 通知事件
+      description: 選取觸發通知嘅事件。當以下事件發生時發送通知
+      discussion_started: 有新貼文
+      discussion_deleted: 有貼文被刪除
+      post_posted: 有新囘複
+      post_hidden: 有囘複被隱藏
+      post_deleted: 有囘複被刪除
+    slack-modal:
+      title: Slack 設寘
+      description: 前徃 <a>https://api.slack.com/web</a> 獲取 token
+      token: Slack token
+      channel: 選取 channel
+      username: 用戶名
+    hipchat-modal:
+      title: HipChat 設寘
+      description: 前徃 hipchat.com 喺屋企(登錄，點擊「屋企」並選取妳睺住發帖嘅屋企）設寘中可取得 token。點擊「Tokens」並添加 token。妳指定嘅標簽將會顯示喺每一個通知中。
+      token: HipChat token
+      room: 屋企名稱或 ID
+      warning: 冇灋喺自建 HipChat 中啓用通知
+    gitter-modal:
+      title: Gitter 設寘 
+      description: 前徃 <a>gitter.im</a> 屋企，點擊「設寘」圖標→集成→自定義，將會生成 webhook url
+      webhook: Gitter webhook

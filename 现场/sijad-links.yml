@@ -1,0 +1,41 @@
+# https://github.com/sijad/flarum-ext-links/blob/master/locale/en.yml
+
+sijad-links:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Edit Link modal dialog.
+    edit_link:
+      delete_link_button: 刪除鏈接
+      delete_link_confirmation: "妳確定要刪除呢個鏈接？"
+      internal_link: "呢繫 Flarum 鏈接哶？"
+      open_newtab: "喺新分頁開啓鏈接"
+      submit_button: => core.ref.save_changes
+      title: => sijad-links.ref.create_link
+      title_label: => sijad-links.ref.title
+      title_placeholder: => sijad-links.ref.title
+      url_label: => sijad-links.ref.url
+      url_placeholder: => sijad-links.ref.url
+
+    # These strings are used in the Links page.
+    links:
+      about_text: 打理主菜單鏈接
+      create_button: => sijad-links.ref.create_link
+      links: => sijad-links.ref.links
+
+    # These strings are used in the navigation bar.
+    nav:
+      links_button: => sijad-links.ref.links
+      links_text: 打理主導航鏈接項
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    create_link: 添加鏈接
+    links: 鏈接
+    title: 標題
+    url: URL

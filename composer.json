@@ -1,7 +1,7 @@
 {
     "name": "Adorkable520/flarum-hk-chinese",
     "type": "flarum-extension",
-    "description": "Simplified Chinese language pack for Flarum",
+    "description": "Flarum's Hong Kong Chinese Language Pack",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
 		"issues": "https://www.ss-bc.cn"
     },
     "require": {
-		"flarum/core": "^0.1.0-beta.7"
+		"flarum/core": "^0.1.0-beta.8"
     },
     "extra": {
 		"branch-alias": {
@@ -33,7 +33,7 @@
         },
         "flarum-locale": {
             "code": "zh-hk",
-            "title": "简体中文"
+            "title": "香港中文"
         }
     }
 }

@@ -1,19 +1,19 @@
 {
-    "name": "csineneo/flarum-ext-simplified-chinese",
+    "name": "Adorkable520/flarum-hk-chinese",
     "type": "flarum-extension",
     "description": "Simplified Chinese language pack for Flarum",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Csineneo",
-            "email": "csineneo@gmail.com",
-			"homepage": "https://vivaldi.club"
+            "name": "Monster",
+            "email": "noreply@ss-bc.cn",
+            "homepage": "https://www.ss-bc.cn"
         }
     ],
     "support": {
-        "source": "https://github.com/Csineneo/flarum-ext-simplified-chinese.git",
-		"issues": "https://vivaldi.club/t/flarum"
+        "source": "https://github.com/Adorkable520/flarum-hk-chinese.git",
+		"issues": "https://www.ss-bc.cn"
     },
     "require": {
 		"flarum/core": "^0.1.0-beta.7"
@@ -23,7 +23,7 @@
 			"dev-master": "0.1.x-dev"
 		},
         "flarum-extension": {
-            "title": "Chinese (zh_CN)",
+            "title": "Chinese (zh_HK)",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#fff",
@@ -32,7 +32,7 @@
             }
         },
         "flarum-locale": {
-            "code": "zh-cn",
+            "code": "zh-hk",
             "title": "简体中文"
         }
     }
